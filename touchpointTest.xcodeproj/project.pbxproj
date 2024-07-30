@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136A32062C587BF1008A12A0 /* TouchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136A32052C587BF1008A12A0 /* TouchViewModel.swift */; };
+		136A32082C587C2D008A12A0 /* MultiTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136A32072C587C2D008A12A0 /* MultiTouchView.swift */; };
+		136A320A2C587C57008A12A0 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136A32092C587C57008A12A0 /* TouchView.swift */; };
 		13A5F44A2C35068D004BE60D /* touchpointTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F4492C35068D004BE60D /* touchpointTestApp.swift */; };
 		13A5F44C2C35068D004BE60D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F44B2C35068D004BE60D /* ContentView.swift */; };
 		13A5F44E2C35068E004BE60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A5F44D2C35068E004BE60D /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136A32052C587BF1008A12A0 /* TouchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewModel.swift; sourceTree = "<group>"; };
+		136A32072C587C2D008A12A0 /* MultiTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchView.swift; sourceTree = "<group>"; };
+		136A32092C587C57008A12A0 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
 		13A5F4462C35068D004BE60D /* touchpointTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchpointTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A5F4492C35068D004BE60D /* touchpointTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchpointTestApp.swift; sourceTree = "<group>"; };
 		13A5F44B2C35068D004BE60D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				13A5F4492C35068D004BE60D /* touchpointTestApp.swift */,
 				13A5F44B2C35068D004BE60D /* ContentView.swift */,
+				136A32092C587C57008A12A0 /* TouchView.swift */,
+				136A32072C587C2D008A12A0 /* MultiTouchView.swift */,
+				136A32052C587BF1008A12A0 /* TouchViewModel.swift */,
 				13A5F44D2C35068E004BE60D /* Assets.xcassets */,
 				13A5F44F2C35068E004BE60D /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136A32082C587C2D008A12A0 /* MultiTouchView.swift in Sources */,
+				136A320A2C587C57008A12A0 /* TouchView.swift in Sources */,
+				136A32062C587BF1008A12A0 /* TouchViewModel.swift in Sources */,
 				13A5F44C2C35068D004BE60D /* ContentView.swift in Sources */,
 				13A5F44A2C35068D004BE60D /* touchpointTestApp.swift in Sources */,
 			);
@@ -287,6 +299,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = soulyft.touchpointTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +331,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = soulyft.touchpointTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

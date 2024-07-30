@@ -1,23 +1,20 @@
-//
-//  ContentView.swift
-//  touchpointTest
-//
-//  Created by Corey Lofthus on 7/2/24.
-//
-
 import SwiftUI
 
+
 struct ContentView: View {
+    @State var touchVM: TouchViewModel = TouchViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MultiTouchView()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .environment(touchVM)
     }
 }
+
+
+
+
+
 
 #Preview {
     ContentView()
